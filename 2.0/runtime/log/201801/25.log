@@ -1,0 +1,204 @@
+---------------------------------------------------------------
+[ 2018-01-25T10:36:11+08:00 ] 127.0.0.1 GET /
+[ info ] tp5-2.com/ [运行时间：0.269016s][吞吐率：3.72req/s] [内存消耗：1,031.73kb] [文件加载：68]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '/',
+  'route' => 'index/index/index',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:37:43+08:00 ] 127.0.0.1 GET /cate.html
+[ info ] tp5-2.com/cate.html [运行时间：0.259015s][吞吐率：3.86req/s] [内存消耗：2,206.97kb] [文件加载：82]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cate',
+  'route' => 'index/cate/lst',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5-2.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\cate\lst.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY sort desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:38:00+08:00 ] 127.0.0.1 GET /cate/add.html
+[ info ] tp5-2.com/cate/add.html [运行时间：0.273015s][吞吐率：3.66req/s] [内存消耗：2,206.82kb] [文件加载：82]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cate/add',
+  'route' => 'index/cate/add',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5-2.com/cate.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\cate\add.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY sort desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:38:00+08:00 ] 127.0.0.1 GET /cate/favicon.ico
+[ info ] tp5-2.com/cate/favicon.ico [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,206.76kb] [文件加载：82]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cate',
+  'route' => 'index/cate/lst',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5-2.com/cate/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\cate\lst.html [ array (
+  0 => 'cateres',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY sort desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:38:17+08:00 ] 127.0.0.1 GET /cate/edit/1.html
+[ info ] tp5-2.com/cate/edit/1.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,220.38kb] [文件加载：83]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cate/edit/:id',
+  'route' => 'index/cate/edit',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+    'id' => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://tp5-2.com/cate.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\cate\edit.html [ array (
+  0 => 'cateres',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY sort desc [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:38:17+08:00 ] 127.0.0.1 GET /cate/edit/favicon.ico
+[ info ] tp5-2.com/cate/edit/favicon.ico [运行时间：0.068004s][吞吐率：14.70req/s] [内存消耗：2,217.14kb] [文件加载：83]
+[ info ] [ LANG ] F:\www\TP5.1\2.0\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'cate/edit/:id',
+  'route' => 'index/cate/edit',
+  'option' => 
+  array (
+  ),
+  'var' => 
+  array (
+    'id' => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'tp5-2.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://tp5-2.com/cate/edit/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'favicon.ico',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\www\TP5.1\2.0\application/index/view\cate\edit.html [ array (
+  0 => 'cateres',
+  1 => 'cates',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tp5;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` ORDER BY sort desc [ RunTime:0.001000s ]
