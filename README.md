@@ -3,6 +3,8 @@
 ThinkPHP5.1 project background function development source
 
 * [X] 序言
+* [X] 文档更新状态
+* [X] 错误提交
 * [X] 零、前期准备
 	* [X]  （1）PHP开发环境
 	* [X]  （2）PHP开发工具
