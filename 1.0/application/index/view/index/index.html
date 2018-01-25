@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>欢迎来到首页</title>
+</head>
+<body>
+    <h1>{$Think.session.name},欢迎来到{$name}</h1>
+
+    <!-- 获得 session存的ID -->
+    你的ID是：{$Think.session.id} <br>
+    <!-- 获得session存储的用户名 -->
+    你的 用户名 是：{$Think.session.name} <br>
+
+    <a href="{:url('index/login/logout')}">安全退出</a>
+</body>
+</html>
