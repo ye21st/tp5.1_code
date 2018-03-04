@@ -55,13 +55,12 @@ ThinkPHP5.1 project background function development source
 	* [X]  （6）MVC - C（控制器）
 	* [X] （7）自定义跳转页面
 	* [X]   （8）源码下载
-* [ ] 七、整合markdown在线编辑器
-	* [ ]  （1）数据表设计
-	* [ ]  （2）项目配置
-	* [ ]  （3）MVC - V（视图）
-	* [ ]  （4）MVC - M（模型）
-	* [ ]  （5）MVC - C（控制器）
-	* [ ]  （6）源码下载
+* [X] 七、整合markdown在线编辑器
+	* [X]  （1）数据表设计
+	* [X]  （2）项目配置
+	* [X]  （3）MVC - V（视图）
+	* [X]  （4）MVC - C（控制器）
+	* [X]  （5）源码下载
 * [ ] 八、接入PHPExcel
 	* [ ]  （1）数据表设计
 	* [ ]  （2）项目配置
