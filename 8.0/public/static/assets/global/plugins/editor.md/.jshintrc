@@ -1,10 +1,16 @@
 {
+<<<<<<< .merge_file_a19976
 	"esnext": true,
+=======
+    "asi": true,
+    "esnext": true,
+>>>>>>> .merge_file_a19916
 	"bitwise": true,
 	"camelcase": true,
 	"curly": true,
 	"eqeqeq": true,
 	"immed": true,
+<<<<<<< .merge_file_a19976
 	"indent": 4,
 	"latedef": true,
 	"newcap": true,
@@ -18,3 +24,19 @@
 	"smarttabs": true,
 	"white": true
 }
+=======
+	"indent": 2,
+	"latedef": true,
+	"newcap": true,
+	"noarg": true,
+	"quotmark": "singlequote",
+	"regexp": true,
+	"undef": false,
+	"unused": false,
+	"strict": true,
+	"trailing": true,
+	"smarttabs": true,
+    "white": true,
+    "laxbreak": true
+}
+>>>>>>> .merge_file_a19916
