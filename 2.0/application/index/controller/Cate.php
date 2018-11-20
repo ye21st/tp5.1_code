@@ -130,7 +130,8 @@ class Cate extends Controller
     {
         //  通过ID去进行数据的删除
         $del = CateModel::get(Request::param('id'));
-        if ($del) {
+        $bool = $del->delete();
+        if ($bool) {
             $this->success('删除栏目成功！', url('index/cate/lst'));
         } else {
             $this->error('删除栏目失败！');
