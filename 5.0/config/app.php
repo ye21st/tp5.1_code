@@ -116,4 +116,10 @@ return [
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
 
+    //分页配置
+    'paginate'               => [
+        'type'      => 'app\comm\page\Page1',
+        'var_page'  => 'page',
+        'list_rows' => 15,
+    ],
 ];
